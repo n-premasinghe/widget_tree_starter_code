@@ -8,6 +8,9 @@ void main() {
         body: SafeArea(
           child: Column(
             children: [
+              CircleAvatar(
+                radius: 70,
+              ),
               
             ],
           ),
