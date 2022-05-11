@@ -14,18 +14,24 @@ void main() {
               Text(
                 'Your name here!',
                 style: TextStyle(
-
+                  fontFamily: 'Pacifico',
+                    fontSize: 40.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
                 ),
               ),
               Text(
                 'Your title here!',
                 style: TextStyle(
-
+                  fontFamily: 'Pacifico',
+                    fontSize: 20.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
                 ),
               ),
               Card(
                 child: ListTile(
-
+                  
                 ),
               ),
               Card(
