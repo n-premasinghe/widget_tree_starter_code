@@ -11,7 +11,28 @@ void main() {
               CircleAvatar(
                 radius: 70,
               ),
-              
+              Text(
+                'Your name here!',
+                style: TextStyle(
+
+                ),
+              ),
+              Text(
+                'Your title here!',
+                style: TextStyle(
+
+                ),
+              ),
+              Card(
+                child: ListTile(
+
+                ),
+              ),
+              Card(
+                child: ListTile(
+                  
+                ),
+              )
             ],
           ),
         ),
