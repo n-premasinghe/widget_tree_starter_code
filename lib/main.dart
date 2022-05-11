@@ -68,7 +68,7 @@ void main() {
                         color: Colors.teal.shade900,
                         fontSize: 20
                       ),
-                    )
+                  )
                 ),
               )
             ],
