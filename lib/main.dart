@@ -7,26 +7,33 @@ void main() {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
                 radius: 70,
               ),
-              Text(
-                'Your name here!',
-                style: TextStyle(
-                  fontFamily: 'Pacifico',
-                    fontSize: 40.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w500,
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Text(
+                  'Your name here!',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                      fontSize: 40.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
-              Text(
-                'Your title here!',
-                style: TextStyle(
-                  fontFamily: 'Pacifico',
-                    fontSize: 20.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w500,
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  'Your title here!',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                      fontSize: 20.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
               Card(
