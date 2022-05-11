@@ -30,15 +30,39 @@ void main() {
                 ),
               ),
               Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                 child: ListTile(
-                  
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    title: Text(
+                      'Your # here!',
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontSize: 20,
+                    ),
+                  )
                 ),
               ),
               Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                 child: ListTile(
-                  
+                    leading: Icon(
+                      Icons.mail,
+                      color: Colors.teal,
+                    ),
+                    title: Text(
+                      'Your email here!',
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontSize: 20,
+                    ),
+                  )
                 ),
-              )
+              ),
             ],
           ),
         ),
