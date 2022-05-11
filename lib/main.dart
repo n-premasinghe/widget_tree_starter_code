@@ -50,7 +50,6 @@ void main() {
                       style: TextStyle(
                         color: Colors.teal.shade900,
                         fontSize: 20,
-
                       ),
                     )
                 ),
@@ -74,7 +73,7 @@ void main() {
               )
             ],
           )
-          ),
+        ),
       ),
     ),
   );
